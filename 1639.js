@@ -13,4 +13,5 @@ var numWays = function(words, target) {
        }
    }
    return result[target.length] % mod;
+   
 };
