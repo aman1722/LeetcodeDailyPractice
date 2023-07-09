@@ -21,7 +21,7 @@ function f(stoneValue = [], n, i) {
     return dp[i];
 }
 
-function stoneGameIII(stoneValue = []) {
+function stoneGameIII(stoneValue=[]) {
     let n = stoneValue.length;
     dp = new Array(n + 1);
     for (let i = 0; i < n; i++) {
